@@ -1,0 +1,72 @@
+body {
+  background-color:rgba(194, 247, 225, 0.3);
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: rgb(19, 17, 23);
+  }
+img {
+  border-radius: 50%;
+}
+@media (max-width: 480px) {
+  /* For a screen < 960px, this CSS will be read */
+  ul{
+    list-style-type: none;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+  }
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(18, 18, 26);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(79, 14, 242)
+}
+
+.container{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.card{
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid rgb(228, 223, 223);
+  border-radius: 3%;
+  box-shadow: 0 5px 5px 0 rgb(71, 71, 72);
+}
+#follow{
+  color: rgb(39, 233, 74);
+  border-radius: 5px;
+  padding: 5px 15px;
+
+}
+
+#redir{
+  background-color: rgb(204, 213, 41);
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.social{
+  width: 150px;
+  padding: 5px 0;
+  display: inline;
+}
+
+ul > li{
+  size: 80px;
+  margin: 10px;
+}
